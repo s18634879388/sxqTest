@@ -37,5 +37,10 @@ public class DemoInfoController {
         System.out.println("DemoInfoController.test1()");
         return"ok";
     }
+    @RequestMapping("/mytest")
+    public @ResponseBody String mytest(){
+        demoInfoService.mytest();
+        return "ok";
+    }
 
 }

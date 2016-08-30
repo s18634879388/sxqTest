@@ -22,7 +22,7 @@ public class FileUploadController {
     public String handleFileUpload(@RequestParam("file")MultipartFile file){
         if (!file.isEmpty()){
             try {
-                BufferedOutputStream out = new BufferedOutputStream(new FileOutputStream(new File(file.getOriginalFilename())));
+                BufferedOutputStream out = new BufferedOutputStream(new FileOutputStream(new File("d://"+file.getOriginalFilename())));
                 out.write(file.getBytes());
                 out.flush();
                 out.close();
