@@ -42,5 +42,10 @@ public class DemoInfoController {
         demoInfoService.mytest();
         return "ok";
     }
+    @RequestMapping("/hehehe")
+    public @ResponseBody String hehehe(){
+        System.out.println("--------------------------------------------");
+        return "heihei";
+    }
 
 }
