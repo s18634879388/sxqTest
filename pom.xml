@@ -83,12 +83,12 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
-    <properties>
-        <!-- The main class to start by executing java -jar -->
+    <!--<properties>
+        &lt;!&ndash; The main class to start by executing java -jar &ndash;&gt;
         <start-class>com.h9.Application</start-class>
         <java.version>1.8</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    </properties>
+    </properties>-->
     <build>
         <plugins>
             <plugin>
