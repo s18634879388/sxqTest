@@ -1,11 +1,15 @@
 package test.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import test.entity.DemoInfo;
+import test.mapper.UserMapper;
 import test.service.DemoInfoService;
+
+import java.sql.Driver;
 
 /**
  * Created by Administrator on 2016/8/4...........
@@ -14,6 +18,11 @@ import test.service.DemoInfoService;
 public class DemoInfoController {
     @Autowired
     DemoInfoService demoInfoService;
+    @Autowired
+    UserMapper userMapper;
+
+    @Value("${spring.datasource.url}")
+    private String url;
     @RequestMapping("/test")
     public @ResponseBody String test(){
         DemoInfo loaded = demoInfoService.findById(1);
@@ -44,7 +53,9 @@ public class DemoInfoController {
     }
     @RequestMapping("/hehehe")
     public @ResponseBody String hehehe(){
-        System.out.println("--------------------------------------------");
+        DemoInfo demoInfo = userMapper.getUser(1);
+        System.out.println(demoInfo.getId()+"-------"+demoInfo.getName()+"----------"+demoInfo.getPwd());
+        System.out.println("--------------------------------------------"+url);
         return "heihei";
     }
 
