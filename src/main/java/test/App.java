@@ -9,6 +9,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class App {
     //branch1
+    //branch2
     public static void main(String[] args) {
         SpringApplication.run(App.class, args);
 
