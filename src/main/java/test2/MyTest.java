@@ -1,12 +1,13 @@
 package test2;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * Created by Administrator on 2016/8/9.
  */
 public class MyTest {
 //    public static void main(String[] args) {
-//
-//        System.out.println(Integer.min(10,12));
 //    }
 /*    public static AAA getA(){
         AAA X = new AAA();
