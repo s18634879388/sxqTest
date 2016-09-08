@@ -41,7 +41,7 @@ public class ElasticSearchHandler {
 //            }
 
             //搜索
-            
+
             client.close();
         }
 //        catch (UnknownHostException e) {

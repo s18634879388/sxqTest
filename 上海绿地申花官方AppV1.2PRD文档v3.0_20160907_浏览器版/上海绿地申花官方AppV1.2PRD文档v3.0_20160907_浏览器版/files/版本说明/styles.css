@@ -1,0 +1,278 @@
+﻿body {
+  margin:0px;
+  background-color:rgba(204, 204, 204, 1);
+  background-image:none;
+  position:static;
+  left:auto;
+  width:1210px;
+  margin-left:0;
+  margin-right:0;
+  text-align:left;
+}
+#base {
+  position:absolute;
+  z-index:0;
+}
+#u0 {
+  position:absolute;
+  left:10px;
+  top:10px;
+  width:1205px;
+  height:105px;
+}
+#u1_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:146px;
+  height:51px;
+}
+#u1 {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:146px;
+  height:51px;
+  font-family:'微软雅黑 Bold', '微软雅黑';
+  font-weight:700;
+  font-style:normal;
+  font-size:14px;
+}
+#u2 {
+  position:absolute;
+  left:2px;
+  top:16px;
+  width:142px;
+  word-wrap:break-word;
+}
+#u3_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:585px;
+  height:51px;
+}
+#u3 {
+  position:absolute;
+  left:146px;
+  top:0px;
+  width:585px;
+  height:51px;
+  font-family:'微软雅黑 Bold', '微软雅黑';
+  font-weight:700;
+  font-style:normal;
+  font-size:14px;
+}
+#u4 {
+  position:absolute;
+  left:2px;
+  top:16px;
+  width:581px;
+  word-wrap:break-word;
+}
+#u5_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:147px;
+  height:51px;
+}
+#u5 {
+  position:absolute;
+  left:731px;
+  top:0px;
+  width:147px;
+  height:51px;
+  font-family:'微软雅黑 Bold', '微软雅黑';
+  font-weight:700;
+  font-style:normal;
+  font-size:14px;
+}
+#u6 {
+  position:absolute;
+  left:2px;
+  top:16px;
+  width:143px;
+  word-wrap:break-word;
+}
+#u7_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:171px;
+  height:51px;
+}
+#u7 {
+  position:absolute;
+  left:878px;
+  top:0px;
+  width:171px;
+  height:51px;
+  font-family:'微软雅黑 Bold', '微软雅黑';
+  font-weight:700;
+  font-style:normal;
+  font-size:14px;
+}
+#u8 {
+  position:absolute;
+  left:2px;
+  top:16px;
+  width:167px;
+  word-wrap:break-word;
+}
+#u9_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:151px;
+  height:51px;
+}
+#u9 {
+  position:absolute;
+  left:1049px;
+  top:0px;
+  width:151px;
+  height:51px;
+  font-family:'微软雅黑 Bold', '微软雅黑';
+  font-weight:700;
+  font-style:normal;
+  font-size:14px;
+}
+#u10 {
+  position:absolute;
+  left:2px;
+  top:16px;
+  width:147px;
+  word-wrap:break-word;
+}
+#u11_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:146px;
+  height:49px;
+}
+#u11 {
+  position:absolute;
+  left:0px;
+  top:51px;
+  width:146px;
+  height:49px;
+  font-family:'微软雅黑 Regular', '微软雅黑';
+  font-weight:400;
+  font-style:normal;
+  font-size:14px;
+  color:#FFFFFF;
+}
+#u12 {
+  position:absolute;
+  left:2px;
+  top:14px;
+  width:142px;
+  word-wrap:break-word;
+}
+#u13_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:585px;
+  height:49px;
+}
+#u13 {
+  position:absolute;
+  left:146px;
+  top:51px;
+  width:585px;
+  height:49px;
+  font-family:'微软雅黑 Regular', '微软雅黑';
+  font-weight:400;
+  font-style:normal;
+  font-size:14px;
+  color:#FFFFFF;
+  text-align:left;
+}
+#u14 {
+  position:absolute;
+  left:2px;
+  top:14px;
+  width:581px;
+  word-wrap:break-word;
+}
+#u15_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:147px;
+  height:49px;
+}
+#u15 {
+  position:absolute;
+  left:731px;
+  top:51px;
+  width:147px;
+  height:49px;
+  font-family:'微软雅黑 Regular', '微软雅黑';
+  font-weight:400;
+  font-style:normal;
+  font-size:14px;
+  color:#FFFFFF;
+}
+#u16 {
+  position:absolute;
+  left:2px;
+  top:14px;
+  width:143px;
+  word-wrap:break-word;
+}
+#u17_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:171px;
+  height:49px;
+}
+#u17 {
+  position:absolute;
+  left:878px;
+  top:51px;
+  width:171px;
+  height:49px;
+  font-family:'微软雅黑 Regular', '微软雅黑';
+  font-weight:400;
+  font-style:normal;
+  font-size:14px;
+  color:#FFFFFF;
+}
+#u18 {
+  position:absolute;
+  left:2px;
+  top:14px;
+  width:167px;
+  word-wrap:break-word;
+}
+#u19_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:151px;
+  height:49px;
+}
+#u19 {
+  position:absolute;
+  left:1049px;
+  top:51px;
+  width:151px;
+  height:49px;
+  font-family:'微软雅黑 Regular', '微软雅黑';
+  font-weight:400;
+  font-style:normal;
+  font-size:14px;
+  color:#FFFFFF;
+}
+#u20 {
+  position:absolute;
+  left:2px;
+  top:14px;
+  width:147px;
+  word-wrap:break-word;
+}
